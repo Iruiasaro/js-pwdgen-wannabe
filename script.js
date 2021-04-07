@@ -1,4 +1,6 @@
 
 var nome = prompt("Indica il tuo nome");
 
-document.getElementById("myTitle").innerHTML = nome + 21;
+var cognome = prompt("Indica il tuo cognome");
+
+document.getElementById("myTitle").innerHTML = nome + cognome + 21;
